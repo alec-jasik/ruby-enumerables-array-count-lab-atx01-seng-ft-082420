@@ -10,7 +10,7 @@ def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count 
   array.count do 
     |element|
-    if element.is_a?(string)
+    if element.is_a?(String)
       String.empty?
     end
   end
